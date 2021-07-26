@@ -10,3 +10,15 @@ C:\ProyectoCore\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCo
 C:\ProyectoCore\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CopyComplete
 C:\ProyectoCore\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
 C:\ProyectoCore\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netstandard2.0\Dominio.dll
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netstandard2.0\Dominio.pdb
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CopyComplete
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb

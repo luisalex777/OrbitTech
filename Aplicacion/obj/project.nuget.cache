@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KrHXueeFjqVQt+o3oCF6KEEO1V9HE/4B6Jhz1GVY0pS8LHf+0XwQTwKgBN04X9MxB6OZ/vQ6a0aZLUL1KAAw1Q==",
+  "dgSpecHash": "jmqBbDTjv3FZpZjkBIvuIss7dPf6YHWmGCG93qiStXKeBLkhKFis8qY+1tsVS7OxRIWGmDhVhz6JHSG0rE2MaA==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\ProyectoOrbitTech\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cace801555\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\cace801555\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",

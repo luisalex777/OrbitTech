@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {}
+    "C:\\ProyectoOrbitTech\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\cace801555\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "C:\\ProyectoOrbitTech\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "C:\\ProyectoOrbitTech\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\ProyectoOrbitTech\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\ProyectoOrbitTech\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\cace801555\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "C:\\ProyectoOrbitTech\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj"
               }
             }
           }

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\cace801555\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
+      "outputPath": "C:\\ProyectoOrbitTech\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -5191,11 +5191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\ProyectoOrbitTech\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\ProyectoOrbitTech\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\cace801555\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoCore\\WebAPI\\obj\\",
+      "outputPath": "C:\\ProyectoOrbitTech\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5214,8 +5214,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+            "C:\\ProyectoOrbitTech\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\ProyectoOrbitTech\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

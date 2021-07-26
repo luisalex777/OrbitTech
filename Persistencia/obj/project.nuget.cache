@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xr5KLFHuh8+lliWqk1l/SzIJLYHPRBexmirD9/F27YyG9KBbsR+pPeahGhthRmaI/4bPhSjX1oxSOM2CTP7cQA==",
+  "dgSpecHash": "i7S46eMTS+idmWui59SvDLgYVASRP9/aHgCGB51Jfba5078t/hG6tpbR2AFXUnRXjOu2kTBokBfnxaPpA3Z1tg==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\ProyectoOrbitTech\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cace801555\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\cace801555\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
