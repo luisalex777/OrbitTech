@@ -1,0 +1,9 @@
+C:\ProyectoOrbitTech\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\ProyectoOrbitTech\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\ProyectoOrbitTech\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

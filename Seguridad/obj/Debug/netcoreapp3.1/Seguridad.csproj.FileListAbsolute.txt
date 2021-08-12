@@ -1,0 +1,16 @@
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.deps.json
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.dll
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.pdb
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\ProyectoOrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csprojAssemblyReference.cache
+C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfoInputs.cache
+C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfo.cs
+C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CoreCompileInputs.cache
+C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CopyComplete
+C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
+C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb

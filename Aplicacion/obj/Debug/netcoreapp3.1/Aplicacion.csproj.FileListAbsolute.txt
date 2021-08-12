@@ -1,0 +1,14 @@
+C:\ProyectoOrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.deps.json
+C:\ProyectoOrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\ProyectoOrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\ProyectoOrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\ProyectoOrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\ProyectoOrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\ProyectoOrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
+C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
+C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
+C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb

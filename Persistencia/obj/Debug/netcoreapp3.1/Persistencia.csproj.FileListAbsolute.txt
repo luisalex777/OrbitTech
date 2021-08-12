@@ -1,0 +1,15 @@
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\ProyectoOrbitTech\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\ProyectoOrbitTech\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
