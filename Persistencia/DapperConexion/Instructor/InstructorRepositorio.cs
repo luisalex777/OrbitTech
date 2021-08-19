@@ -118,18 +118,22 @@ namespace Persistencia.DapperConexion.Instructor
         {
             var storeProcedure = "usp_obtener_instructor_por_id";
             InstructorModel instructor = null;
-            try{
+            try
+            {
                 var connection = _factoryConnection.GetConnection();
                 instructor = await connection.QueryFirstAsync<InstructorModel>(
                     storeProcedure,
-                    new{
+                    new
+                    {
                         Id = id
                     },
-                    commandType : CommandType.StoredProcedure
+                    commandType: CommandType.StoredProcedure
                 );
                 return instructor;
 
-            }catch(Exception e){
+            }
+            catch (Exception e)
+            {
                 throw new Exception("No se pudo encontrar el instructor", e);
             }
         }
