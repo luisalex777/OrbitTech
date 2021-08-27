@@ -5364,11 +5364,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoOrbitTech\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\ProyectoOrbitTech\\Aplicacion\\Aplicacion.csproj",
+      "projectPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Aplicacion\\Aplicacion.csproj",
       "packagesPath": "C:\\Users\\cace801555\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoOrbitTech\\Aplicacion\\obj\\",
+      "outputPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5387,11 +5387,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\ProyectoOrbitTech\\Dominio\\Dominio.csproj"
+            "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Dominio\\Dominio.csproj"
             },
-            "C:\\ProyectoOrbitTech\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\ProyectoOrbitTech\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Persistencia\\Persistencia.csproj"
             }
           }
         }

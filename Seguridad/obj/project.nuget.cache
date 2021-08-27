@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ij9wo1eSVwJmhGm9+3DcVYienH+062WE/IoKyEK3fJVjineAO8gkfnpEFaSgZAuqqwkhSTaaJP7+i52BYAJpIA==",
+  "dgSpecHash": "Xx/D+6m4e4tmJ5NhFZqtZVSa2QrlVDrd0w4LO3xqsWi02qkWgnHL2z90itjqvpBeFupM4SAspf8LvH0ZPImrzQ==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoOrbitTech\\Seguridad\\Seguridad.csproj",
+  "projectFilePath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cace801555\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\cace801555\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

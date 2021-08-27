@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6z/wbLRsXNjwN1qnOrXY97/Fq7rgULFdPnddPEdy/A3NMCRWh9Yk6YCQFRmsRfAx28A/aoWTdpcWHlK1U20WJw==",
+  "dgSpecHash": "2rKu+toqDkChHoo8U08F0x7W6hkSBnPIVsMD+NSheMMH7icbOSnsTie1AGt0xokHcXH3wOJsHkOqm7HTbBWTqQ==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoOrbitTech\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cace801555\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\cace801555\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

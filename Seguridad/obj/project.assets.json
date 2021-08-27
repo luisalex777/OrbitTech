@@ -5580,11 +5580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoOrbitTech\\Seguridad\\Seguridad.csproj",
+      "projectUniqueName": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Seguridad\\Seguridad.csproj",
       "projectName": "Seguridad",
-      "projectPath": "C:\\ProyectoOrbitTech\\Seguridad\\Seguridad.csproj",
+      "projectPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Seguridad\\Seguridad.csproj",
       "packagesPath": "C:\\Users\\cace801555\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoOrbitTech\\Seguridad\\obj\\",
+      "outputPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Seguridad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5603,8 +5603,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoOrbitTech\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\ProyectoOrbitTech\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

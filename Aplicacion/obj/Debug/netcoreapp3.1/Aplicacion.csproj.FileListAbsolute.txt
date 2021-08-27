@@ -12,3 +12,17 @@ C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCo
 C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
 C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
 C:\ProyectoOrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.deps.json
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb

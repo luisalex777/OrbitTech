@@ -7,3 +7,12 @@ C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
 C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\ProyectoOrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

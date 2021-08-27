@@ -14,3 +14,19 @@ C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CoreComp
 C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CopyComplete
 C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
 C:\ProyectoOrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.deps.json
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csprojAssemblyReference.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfoInputs.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfo.cs
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CoreCompileInputs.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CopyComplete
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git7\OrbitTech\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb

@@ -26,10 +26,13 @@ const Login = () => {
 
   const loginUsuarioBoton = (e) => {
     e.preventDefault();
+    
+    
     loginUsuario(usuario).then((response) => {
+
       console.log("login exitoso", response);
       window.localStorage.setItem("token_seguridad", response.data.token);
-    });
+    }).catch(err=>{console.error("hello")});
   };
 
   return (

@@ -14,7 +14,7 @@ import { useStateValue } from "../../contexto/store";
 import style from "../Tool/Style";
 
 const PerfilUsuario = () => {
-  const [{ sesionUsuario }, dispatch] = useStateValue();
+  const [{sesionUsuario}, dispatch] = useStateValue();
   const [usuario, setUsuario] = useState({
     nombreCompleto: "",
     email: "",
@@ -32,7 +32,7 @@ const PerfilUsuario = () => {
   };
 
   useEffect(() => {
-    obtenerUsuarioActual().then((response) => {
+    obtenerUsuarioActual(dispatch).then((response) => {
       console.log(
         "esta es la data del objeto response del usuario actual",
         response
