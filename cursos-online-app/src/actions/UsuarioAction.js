@@ -38,9 +38,9 @@ export const loginUsuario = (usuario) => {
   return new Promise((resolve, eject) => {
     HttpCliente.post("/usuario/login", usuario).then(response => {
       resolve(response);
-    }).catch(err => {
+    })/* .catch(err => {
       console.log(usuario);
       console.warn(err)
-    });
+    }); */
   });
 };
