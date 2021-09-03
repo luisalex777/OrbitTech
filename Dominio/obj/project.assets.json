@@ -804,11 +804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git8\\OrbitTech\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git8\\OrbitTech\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\cace801555\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git7\\OrbitTech\\Dominio\\obj\\",
+      "outputPath": "C:\\Users\\cace801555\\OneDrive - SIIGO SAS\\Escritorio\\git8\\OrbitTech\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

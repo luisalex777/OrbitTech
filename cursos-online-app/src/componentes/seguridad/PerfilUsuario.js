@@ -1,4 +1,5 @@
 import {
+  Avatar,
   Button,
   Container,
   Grid,
@@ -12,6 +13,10 @@ import {
 } from "../../actions/UsuarioAction";
 import { useStateValue } from "../../contexto/store";
 import style from "../Tool/Style";
+import reactFoto from "../../logo.svg";
+import { v4 as uuidv4 } from "uuid";
+import ImageUploader from "react-images-upload";
+import { obtenerDataImagen } from "../../actions/ImagenAction";
 
 const PerfilUsuario = () => {
   const [{sesionUsuario}, dispatch] = useStateValue();
@@ -21,6 +26,8 @@ const PerfilUsuario = () => {
     password: "",
     confirmarPassword: "",
     username: "",
+    imagenPerfil: null,
+    fotoUrl: "",
   });
 
   const ingresarValoresMemoria = (e) => {
@@ -43,9 +50,8 @@ const PerfilUsuario = () => {
 
   const guardarUsuario = (e) => {
     e.preventDefault();
-    actualizarUsuario(usuario).then((response) => {
-      console.log("se actualizo el usuario", response);
-
+    console.log('usuario beofre send', usuario);
+    actualizarUsuario(usuario, dispatch).then((response) => {
       if (response.status === 200) {
         dispatch({
           type: "OPEN_SNACKBAR",
@@ -69,13 +75,29 @@ const PerfilUsuario = () => {
     });
   };
 
+  const subirFoto = (imagenes) => {
+    const foto = imagenes[0];
+    const fotoUrl = URL.createObjectURL(foto);
+
+    obtenerDataImagen(foto).then((respuesta) => {
+      console.log('respuesta', respuesta)
+      setUsuario((anterior) => ({
+        ...anterior,
+        imagenPerfil: respuesta, //respuesta es un json que proviene del action obtener imagen { data : ..., nombre:...,extension:... }
+        fotoUrl: fotoUrl, // el archivo en formato url
+      }));
+    });
+  };
+
+  const fotoKey = uuidv4();
+
   return (
     <Container component="main" maxWidth="md" justifycontent="center">
       <div style={style.paper}>
+      <Avatar style={style.avatar} src={usuario.fotoUrl || reactFoto} />
         <Typography component="h1" variant="h5">
           Perfil de Usuario
         </Typography>
-      </div>
       <form style={style.form}>
         <Grid container spacing={2}>
           <Grid item xs={12} md={12}>
@@ -130,6 +152,17 @@ const PerfilUsuario = () => {
               label="Confirme password"
             />
           </Grid>
+          <Grid item xs={12} md={12}>
+              <ImageUploader
+                withIcon={false}
+                key={fotoKey}
+                singleImage={true}
+                buttonText="Seleccione una imagen de perfil"
+                onChange={subirFoto}
+                imgExtension={[".jpg", ".gif", ".png", ".jpeg"]}
+                maxFileSize={5242880}
+              />
+          </Grid>
         </Grid>
         <Grid container justifycontent="center">
           <Grid item xs={12} md={12}>
@@ -147,6 +180,7 @@ const PerfilUsuario = () => {
           </Grid>
         </Grid>
       </form>
+      </div>
     </Container>
   );
 };

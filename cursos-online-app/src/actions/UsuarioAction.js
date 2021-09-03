@@ -10,7 +10,7 @@ export const registrarUsuario = (usuario) => {
 
 export const obtenerUsuarioActual = (dispatch) => {
   return new Promise((resolve, eject) => {
-    HttpCliente.get("/Usuario").then((response) => {
+    HttpCliente.get("/usuario").then((response) => {
       dispatch({
         type: "INICIAR_SESION",
         sesion: response.data,
