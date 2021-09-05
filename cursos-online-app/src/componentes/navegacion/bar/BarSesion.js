@@ -35,14 +35,14 @@ const useStyles = makeStyles((theme) => ({
     height: 40,
   },
   list: {
-      width: 250
+    width: 250,
   },
   listItemText: {
-      fontSize: "14px",
-      fontWeight: 600,
-      paddingLeft: "15px",
-      color: "#212121"
-  }
+    fontSize: "14px",
+    fontWeight: 600,
+    paddingLeft: "15px",
+    color: "#212121",
+  },
 }));
 
 const BarSesion = (props) => {
@@ -53,36 +53,39 @@ const BarSesion = (props) => {
 
   const cerrarMenuIzquierda = () => {
     setAbrirMenuIzquierda(false);
-  }
+  };
 
   const abrirMenuIzquierdaAction = () => {
     setAbrirMenuIzquierda(true);
-  }
+  };
 
   const cerrarMenuDerecha = () => {
-      setAbrirMenuDerecha(false);
-  }
+    setAbrirMenuDerecha(false);
+  };
 
   const salirSesionApp = () => {
-      localStorage.removeItem('token_seguridad');
-      props.history.push('/auth/login');
-  }
+    localStorage.removeItem("token_seguridad");
+    props.history.push("/auth/login");
+  };
 
   const abrirMenuDerechaAction = () => {
-      setAbrirMenuDerecha(true);
-  }
+    setAbrirMenuDerecha(true);
+  };
 
   return (
     <React.Fragment>
       <Drawer
-        open = {abrirMenuIzquierda}
-        onClose = {cerrarMenuIzquierda}
-        anchor ="left"
+        open={abrirMenuIzquierda}
+        onClose={cerrarMenuIzquierda}
+        anchor="left"
       >
-          <div className = {classes.list} onKeyDown={cerrarMenuIzquierda} onClick={cerrarMenuIzquierda}>
-            <MenuIzquierda classes={classes} />
-          </div>
-
+        <div
+          className={classes.list}
+          onKeyDown={cerrarMenuIzquierda}
+          onClick={cerrarMenuIzquierda}
+        >
+          <MenuIzquierda classes={classes} />
+        </div>
       </Drawer>
 
       <Drawer
@@ -90,13 +93,17 @@ const BarSesion = (props) => {
         onClose={cerrarMenuDerecha}
         anchor="right"
       >
-          <div role="button" onClick={cerrarMenuDerecha} onKeyDown={cerrarMenuDerecha}>
-            <MenuDerecha 
-            classes={classes} 
+        <div
+          role="button"
+          onClick={cerrarMenuDerecha}
+          onKeyDown={cerrarMenuDerecha}
+        >
+          <MenuDerecha
+            classes={classes}
             salirSesion={salirSesionApp}
-            usuario = {sesionUsuario ? sesionUsuario.usuario : null}
-            />
-          </div>
+            usuario={sesionUsuario ? sesionUsuario.usuario : null}
+          />
+        </div>
       </Drawer>
       <Toolbar>
         <IconButton color="inherit" onClick={abrirMenuIzquierdaAction}>
@@ -110,7 +117,7 @@ const BarSesion = (props) => {
           <Button color="inherit">
             {sesionUsuario ? sesionUsuario.usuario.nombreCompleto : ""}
           </Button>
-          <Avatar src={FotoUsuarioTemp}></Avatar>
+          <Avatar src={sesionUsuario.usuario.imagenPerfil || FotoUsuarioTemp}></Avatar>
         </div>
 
         <div className={classes.seccionMobile}>

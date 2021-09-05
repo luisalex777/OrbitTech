@@ -10,6 +10,7 @@ axios.interceptors.request.use((config) => {
         config.headers.Authorization = 'Bearer ' + token_seguridad;
         return config;
     }
+    return config;
 }, error => {
     return Promise.reject(error);
 });

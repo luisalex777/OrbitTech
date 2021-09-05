@@ -19,7 +19,7 @@ import ImageUploader from "react-images-upload";
 import { obtenerDataImagen } from "../../actions/ImagenAction";
 
 const PerfilUsuario = () => {
-  const [{sesionUsuario}, dispatch] = useStateValue();
+  const [{ sesionUsuario }, dispatch] = useStateValue();
   const [usuario, setUsuario] = useState({
     nombreCompleto: "",
     email: "",
@@ -39,19 +39,18 @@ const PerfilUsuario = () => {
   };
 
   useEffect(() => {
-    obtenerUsuarioActual(dispatch).then((response) => {
-      console.log(
-        "esta es la data del objeto response del usuario actual",
-        response
-      );
-      setUsuario(response.data);
-    });
+    setUsuario(sesionUsuario.usuario);
+    setUsuario((anterior) => ({
+      ...anterior,
+      fotoUrl: sesionUsuario.usuario.imagenPerfil,
+    }));
   }, []);
 
   const guardarUsuario = (e) => {
     e.preventDefault();
-    console.log('usuario beofre send', usuario);
+    console.log("usuario beofre send", usuario);
     actualizarUsuario(usuario, dispatch).then((response) => {
+      console.log(response);
       if (response.status === 200) {
         dispatch({
           type: "OPEN_SNACKBAR",
@@ -80,7 +79,7 @@ const PerfilUsuario = () => {
     const fotoUrl = URL.createObjectURL(foto);
 
     obtenerDataImagen(foto).then((respuesta) => {
-      console.log('respuesta', respuesta)
+      console.log("respuesta", respuesta);
       setUsuario((anterior) => ({
         ...anterior,
         imagenPerfil: respuesta, //respuesta es un json que proviene del action obtener imagen { data : ..., nombre:...,extension:... }
@@ -94,65 +93,65 @@ const PerfilUsuario = () => {
   return (
     <Container component="main" maxWidth="md" justifycontent="center">
       <div style={style.paper}>
-      <Avatar style={style.avatar} src={usuario.fotoUrl || reactFoto} />
+        <Avatar style={style.avatar} src={usuario.fotoUrl || reactFoto} />
         <Typography component="h1" variant="h5">
           Perfil de Usuario
         </Typography>
-      <form style={style.form}>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={12}>
-            <TextField
-              name="nombreCompleto"
-              value={usuario.nombreCompleto}
-              onChange={ingresarValoresMemoria}
-              variant="outlined"
-              fullWidth
-              label="Ingrese nombre y apellidos"
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              name="username"
-              value={usuario.username}
-              onChange={ingresarValoresMemoria}
-              variant="outlined"
-              fullWidth
-              label="Ingrese Username"
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              name="email"
-              value={usuario.email}
-              onChange={ingresarValoresMemoria}
-              variant="outlined"
-              fullWidth
-              label="Ingrese email"
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              name="password"
-              value={usuario.password}
-              onChange={ingresarValoresMemoria}
-              type="password"
-              variant="outlined"
-              fullWidth
-              label="Ingrese password"
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              name="confirmarPassword"
-              value={usuario.confirmarPassword}
-              onChange={ingresarValoresMemoria}
-              type="password"
-              variant="outlined"
-              fullWidth
-              label="Confirme password"
-            />
-          </Grid>
-          <Grid item xs={12} md={12}>
+        <form style={style.form}>
+          <Grid container spacing={2}>
+            <Grid item xs={12} md={12}>
+              <TextField
+                name="nombreCompleto"
+                value={usuario.nombreCompleto}
+                onChange={ingresarValoresMemoria}
+                variant="outlined"
+                fullWidth
+                label="Ingrese nombre y apellidos"
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <TextField
+                name="username"
+                value={usuario.username}
+                onChange={ingresarValoresMemoria}
+                variant="outlined"
+                fullWidth
+                label="Ingrese Username"
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <TextField
+                name="email"
+                value={usuario.email}
+                onChange={ingresarValoresMemoria}
+                variant="outlined"
+                fullWidth
+                label="Ingrese email"
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <TextField
+                name="password"
+                value={usuario.password}
+                onChange={ingresarValoresMemoria}
+                type="password"
+                variant="outlined"
+                fullWidth
+                label="Ingrese password"
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <TextField
+                name="confirmarPassword"
+                value={usuario.confirmarPassword}
+                onChange={ingresarValoresMemoria}
+                type="password"
+                variant="outlined"
+                fullWidth
+                label="Confirme password"
+              />
+            </Grid>
+            <Grid item xs={12} md={12}>
               <ImageUploader
                 withIcon={false}
                 key={fotoKey}
@@ -162,24 +161,24 @@ const PerfilUsuario = () => {
                 imgExtension={[".jpg", ".gif", ".png", ".jpeg"]}
                 maxFileSize={5242880}
               />
+            </Grid>
           </Grid>
-        </Grid>
-        <Grid container justifycontent="center">
-          <Grid item xs={12} md={12}>
-            <Button
-              type="submit"
-              onClick={guardarUsuario}
-              fullWidth
-              variant="contained"
-              size="large"
-              color="primary"
-              style={style.submit}
-            >
-              Guardar Datos
-            </Button>
+          <Grid container justifycontent="center">
+            <Grid item xs={12} md={12}>
+              <Button
+                type="submit"
+                onClick={guardarUsuario}
+                fullWidth
+                variant="contained"
+                size="large"
+                color="primary"
+                style={style.submit}
+              >
+                Guardar Datos
+              </Button>
+            </Grid>
           </Grid>
-        </Grid>
-      </form>
+        </form>
       </div>
     </Container>
   );
