@@ -9,8 +9,11 @@ import React, { useState } from "react";
 import style from "../Tool/Style";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import { loginUsuario } from "../../actions/UsuarioAction";
+import { withRouter } from "react-router";
+import { useStateValue } from "../../contexto/store";
 
-const Login = () => {
+const Login = (props) => {
+  const [{usuarioSesion}, dispatch] = useStateValue();
   const [usuario, setUsuario] = useState({
     Email: "",
     Password: "",
@@ -24,16 +27,28 @@ const Login = () => {
     }));
   };
 
-  const loginUsuarioBoton = (e) => {
+  const loginUsuarioBoton = e => {
     e.preventDefault();
-    
-    
-    loginUsuario(usuario).then((response) => {
+    loginUsuario(usuario, dispatch).then(response => {
+        console.log('response.data.token', response.data.token);
+        if(response.status === 200) {
+            window.localStorage.setItem('token_seguridad', response.data.token);
+            props.history.push("/");
+        }else{
+            dispatch({
+                type : "OPEN_SNACKBAR",
+                openMensaje : {
+                    open : true,
+                    mensaje : "Las credenciales del usuario son incorrectas"
+                }
+            })
+        }
 
-      console.log("login exitoso", response);
-      window.localStorage.setItem("token_seguridad", response.data.token);
-    }).catch(err=>{console.error("hello")});
-  };
+        
+
+
+    })
+}
 
   return (
     <Container maxWidth="xs">
@@ -80,4 +95,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default withRouter(Login);

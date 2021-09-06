@@ -9,6 +9,8 @@ import { Grid, Snackbar } from "@material-ui/core";
 import AppNavbar from "./componentes/navegacion/AppNavbar";
 import { useStateValue } from "./contexto/store";
 import { obtenerUsuarioActual } from "./actions/UsuarioAction";
+import RutaSegura from "./componentes/navegacion/RutaSegura";
+
 
 function App() {
   const [{ sesionUsuario, openSnackbar }, dispatch] = useStateValue();
@@ -60,8 +62,18 @@ function App() {
                 path="/auth/registrar"
                 component={RegistrarUsuario}
               />
-              <Route exact path="/auth/perfil" component={PerfilUsuario} />
-              <Route exact path="/" component={PerfilUsuario} />
+
+              <RutaSegura 
+                  exact
+                  path = "/auth/perfil"
+                  component = {PerfilUsuario}
+                />
+              
+              <RutaSegura 
+                exact
+                path="/"
+                component={PerfilUsuario}
+              />
             </Switch>
           </Grid>
         </MuithemeProvider>
