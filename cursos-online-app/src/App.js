@@ -10,6 +10,7 @@ import AppNavbar from "./componentes/navegacion/AppNavbar";
 import { useStateValue } from "./contexto/store";
 import { obtenerUsuarioActual } from "./actions/UsuarioAction";
 import RutaSegura from "./componentes/navegacion/RutaSegura";
+import NuevoCurso from "./componentes/cursos/NuevoCurso";
 
 
 function App() {
@@ -73,6 +74,12 @@ function App() {
                 exact
                 path="/"
                 component={PerfilUsuario}
+              />
+
+              <RutaSegura 
+                exact
+                path="/curso/nuevo"
+                component={NuevoCurso}
               />
             </Switch>
           </Grid>
