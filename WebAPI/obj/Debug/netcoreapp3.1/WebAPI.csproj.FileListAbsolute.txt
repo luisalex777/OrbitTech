@@ -321,3 +321,5 @@ C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git8\OrbitTech\WebAPI\obj\De
 C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git8\OrbitTech\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git8\OrbitTech\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git8\OrbitTech\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git8\OrbitTech\WebAPI\bin\Debug\netcoreapp3.1\iTextSharp.LGPLv2.Core.dll
+C:\Users\cace801555\OneDrive - SIIGO SAS\Escritorio\git8\OrbitTech\WebAPI\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
