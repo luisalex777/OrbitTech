@@ -23,13 +23,13 @@ export const MenuIzquierda = ({classes}) => (
         </List>
         <Divider />
         <List>
-            <ListItem component={Link} button to="/instructor/nuevo">
+            <ListItem component={Link} button to="/auth/registrar">
                 <i className="material-icons">person_add</i>
-                <ListItemText classes={{primary: classes.listItemText}} primary="Nuevo Instructor" />
+                <ListItemText classes={{primary: classes.listItemText}} primary="Registro de Usuarios" />
             </ListItem>
-            <ListItem component={Link} button to="/instructor/lista">
+            <ListItem component={Link} button to="/auth/login">
                 <i className="material-icons">people</i>
-                <ListItemText classes={{primary: classes.listItemText}} primary="Lista Instructor" />
+                <ListItemText classes={{primary: classes.listItemText}} primary="Login de Usuarios" />
             </ListItem>
         </List>
     </div>

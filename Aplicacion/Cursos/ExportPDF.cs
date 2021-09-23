@@ -38,7 +38,7 @@ namespace Aplicacion.Cursos
                 writer.CloseStream = false;
 
                 document.Open();
-                document.AddTitle("Lista de Cursos en la Universidad");
+                document.AddTitle("Lista de Cursos OrbitTech");
                 
                 PdfPTable tabla = new PdfPTable(1);
                 tabla.WidthPercentage = 90;

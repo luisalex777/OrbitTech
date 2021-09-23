@@ -37,6 +37,7 @@ namespace Aplicacion.Comentarios
                 var comentario = new Comentario {
                     ComentarioId = Guid.NewGuid(),
                     Alumno = request.Alumno,
+                    Puntaje = request.Puntaje,
                     ComentarioTexto = request.Comentario,
                     CursoId = request.CursoId,
                     FechaCreacion = DateTime.UtcNow

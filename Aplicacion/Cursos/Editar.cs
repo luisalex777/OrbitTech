@@ -76,7 +76,7 @@ namespace Aplicacion.Cursos
                 if(request.ListaInstructor!=null){
                     if(request.ListaInstructor.Count>0){
                         //Eliminando Instructores en BD
-                        var InstructoresBD = _context.CursoInstructor.Where(x => x.CursoId == request.CursoId).ToList();
+                        var InstructoresBD = _context.CursoInstructor.Where(x => x.CursoId == request.CursoId);
                         foreach(var instructorEliminar in InstructoresBD) {
                             _context.CursoInstructor.Remove(instructorEliminar);
                         }
